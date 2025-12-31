@@ -1,0 +1,29 @@
+{{ $h := site.Data.home }}
+{{ with $h.recommended }}
+{{ $rec := . }}
+
+<section class="sm-section" aria-label="recommended dishes">
+  {{ with $rec.title }}
+    <h2>{{ . }}</h2>
+  {{ end }}
+
+  <div class="sm-cards4">
+    {{ range $rec.cards }}
+      <article class="sm-card">
+        {{ with .image }}
+          <img src="{{ . }}" alt="{{ $rec.title }}">
+        {{ end }}
+
+        {{ with .title }}
+          <h3>{{ . }}</h3>
+        {{ end }}
+
+        {{ with .text }}
+          <p>{{ . }}</p>
+        {{ end }}
+      </article>
+    {{ end }}
+  </div>
+</section>
+
+{{ end }}

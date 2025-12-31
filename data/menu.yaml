@@ -1,0 +1,25 @@
+food:
+  title: "Food Menu"
+  pages:
+  - /images/menu/food/1.jpg
+  - /images/menu/food/2.jpg
+  - /images/menu/food/3.jpg
+  - /images/menu/food/4.jpg
+  - /images/menu/food/5.jpg
+  - /images/menu/food/6.jpg
+  - /images/menu/food/7.jpg
+  - /images/menu/food/8.jpg
+  - /images/menu/food/9.jpg
+  - /images/menu/food/10.jpg
+  - /images/menu/food/11.jpg
+  - /images/menu/food/12.jpg
+  - /images/menu/food/13.jpg
+  - /images/menu/food/14.jpg
+
+drinks:
+  title: "Drinks Menu"
+  pages:
+  - /images/menu/drinks/1.jpg
+  - /images/menu/drinks/2.jpg
+  - /images/menu/drinks/3.jpg
+  - /images/menu/drinks/4.jpg

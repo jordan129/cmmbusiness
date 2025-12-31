@@ -1,0 +1,4 @@
+baseURL: "http://localhost:1313/"
+languageCode: "en-gb"
+title: "Sushi Moka"
+disableKinds: ["taxonomy", "term"]

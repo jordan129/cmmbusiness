@@ -1,0 +1,18 @@
+{{ $h := site.Data.home }}
+{{ with $h.banner }}
+
+<section class="sm-banner sm-banner-split sm-banner-jp" aria-label="banner">
+  <div class="sm-banner-text">
+    {{ if .kicker }}<div class="sm-kicker">{{ .kicker }}</div>{{ end }}
+    {{ if .title }}<div class="sm-banner-title">{{ .title }}</div>{{ end }}
+    {{ if .lead }}<p class="sm-banner-lead">{{ .lead }}</p>{{ end }}
+  </div>
+
+  {{ with .image }}
+  <div class="sm-banner-image">
+    <img src="{{ . }}" alt="banner">
+  </div>
+  {{ end }}
+</section>
+
+{{ end }}

@@ -1,0 +1,37 @@
+slider:
+  images:
+    - /images/hero/1.jpg
+    - /images/hero/2.jpg
+    - /images/hero/3.jpg
+    - /images/hero/4.jpg
+  interval_ms: 4000
+
+banner:
+  kicker: OMAKASE
+  title: "Sushi Moka - Where Authentic Japanese Craft Meets Modern Innovation"
+  lead: "We handpick premium ingredients from trusted local purveyors, ensuring that the spirit of Japan’s rich culinary tradition is preserved in every bite. Through meticulous craftsmanship, seasonal sensibility, and an uncompromising commitment to quality, we elevate your dining experience to the zenith of culinary excellence."
+  image: /images/hero2.jpg
+
+grid_image: /images/grid.jpg
+
+recommended:
+  title: "Quality & Tasty Meals We Serve"
+  cards:
+    - image: "/images/dish1.jpg"
+      title: "Miso Black Cod"
+      text: "Indulge in the exquisite flavors of the Miso Black Cod, and embark on a culinary journey that will leave you craving its exceptional taste long after your last bite."
+    - image: "/images/dish2.jpg"
+      title: "Wagyu Sukiyaki"
+      text: "Enjoy tender slices of premium beef simmered in a savory broth alongside a medley of fresh vegetables, creating a truly unforgettable dining experience."
+    - image: "/images/dish3.jpg"
+      title: "Aburi Sushi Set"
+      text: "Indulge in a selection of perfectly seared and expertly crafted sushi bites, showcasing a harmonious blend of flavors and textures."
+    - image: "/images/dish4.jpg"
+      title: "Summer Vibe"
+      text: "We have a seasonal drinks menu, exceptional cocktails, alcohol-free mocktails and premium Japanese whisky."
+
+two_images:
+  title: "Weekly Highlights"
+  images:
+    - "/images/two1.jpg"
+    - "/images/two2.jpg"

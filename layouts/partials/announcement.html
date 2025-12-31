@@ -1,0 +1,49 @@
+{{/* Reusable announcement bar with enable + date window */}}
+{{ $a := site.Data.site.announcement }}
+{{ if and $a $a.enabled }}
+
+  {{ $now := now }}
+  {{ $start := cond (isset $a "start") (time.AsTime $a.start) (time.AsTime "1970-01-01T00:00:00Z") }}
+  {{ $end := cond (isset $a "end") (time.AsTime $a.end) (time.AsTime "2999-12-31T23:59:59Z") }}
+
+  {{ if and (ge $now $start) (le $now $end) }}
+  <div class="sm-announce" id="sm-announce" role="status" aria-live="polite">
+    <div class="sm-announce-inner">
+      <div class="sm-announce-text">
+        {{ if $a.title }}<span class="sm-announce-title">{{ $a.title }}</span>{{ end }}
+        <span class="sm-announce-msg">{{ $a.message }}</span>
+        {{ with $a.link }}
+          <a class="sm-announce-link" href="{{ .url }}">{{ .label }}</a>
+        {{ end }}
+      </div>
+
+      {{ if $a.dismissible }}
+      <button class="sm-announce-close" type="button" aria-label="Dismiss notice" data-announce-close>×</button>
+      {{ end }}
+    </div>
+  </div>
+
+  {{ if $a.dismissible }}
+  <script>
+    (function () {
+      try {
+        var key = "sm_announce_dismissed_" + "{{ $a.id | default "default" }}";
+        if (localStorage.getItem(key) === "1") {
+          var el = document.getElementById("sm-announce");
+          if (el) el.style.display = "none";
+          return;
+        }
+        document.addEventListener("click", function (e) {
+          var btn = e.target && e.target.closest && e.target.closest("[data-announce-close]");
+          if (!btn) return;
+          var el = document.getElementById("sm-announce");
+          if (el) el.style.display = "none";
+          localStorage.setItem(key, "1");
+        });
+      } catch (e) {}
+    })();
+  </script>
+  {{ end }}
+
+  {{ end }}
+{{ end }}

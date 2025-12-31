@@ -1,0 +1,62 @@
+{{ $c := site.Data.site.contact }}
+
+<section class="sm-section" id="contact" aria-label="contact us">
+  <h2>{{ $c.section_title }}</h2>
+
+  <div class="sm-contact-grid" role="group" aria-label="contact details and opening hours">
+
+    <div class="sm-contact-left">
+      <div class="sm-contact-card">
+        <h3 class="sm-contact-card-title">{{ $c.left_title }}</h3>
+
+        <div class="sm-contact-row">
+          <div class="sm-contact-label">Address</div>
+          <div class="sm-contact-value">
+            {{ range $c.address_lines }}
+              <div>{{ . }}</div>
+            {{ end }}
+          </div>
+        </div>
+
+        <div class="sm-contact-row">
+          <div class="sm-contact-label">Phone</div>
+          <div class="sm-contact-value">
+            <a href="tel:{{ $c.phone }}">{{ $c.phone_display }}</a>
+          </div>
+        </div>
+
+        <div class="sm-contact-row">
+          <div class="sm-contact-label">Email</div>
+          <div class="sm-contact-value">
+            <a href="mailto:{{ $c.email }}">{{ $c.email }}</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="sm-contact-right">
+      <div class="sm-contact-card">
+        <h3 class="sm-contact-card-title">{{ $c.right_title }}</h3>
+        <div class="sm-contact-value">
+          {{ range $c.hours_lines }}
+            <div>{{ . }}</div>
+          {{ end }}
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  {{ with $c.map_iframe_src }}
+  <div class="sm-contact-map">
+    <iframe
+      src="{{ . }}"
+      width="100%"
+      height="{{ $c.map_height_home | default 360 }}"
+      style="border:0;"
+      allowfullscreen=""
+      loading="lazy"></iframe>
+  </div>
+  {{ end }}
+</section>
