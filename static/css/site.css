@@ -939,10 +939,24 @@ body.sm-menu-open{ overflow: hidden; }
 }
 
 /* responsive */
-@media (max-width: 900px){
+@media (max-width: 768px){
   .sm-about-inner{
-    grid-template-columns: 1fr;
-    gap: 18px;
+    flex-direction: column;
+    align-items: stretch; /* 让内容占满宽度，更自然 */
+  }
+
+  .sm-about-media{
+    flex: none;
+    width: 100%;
+  }
+
+  .sm-about-body{
+    width: 100%;
+  }
+
+  .sm-about-img{
+    width: 100%;
+    height: auto;
   }
 }
 

@@ -1,36 +1,36 @@
 ---
 page_kind: legal
-title: "Privacy Policy | The Golden Bund"
-description: "Learn how The Golden Bund collects, uses, and protects personal data when you visit our website, contact us, or make a reservation, in line with UK data protection law."
-lastUpdated: "2026-01-03"
+title: "Privacy Policy | CMM Business"
+description: "Learn how CMM Business collects, uses, and protects personal data when you visit our website or contact us, in line with UK data protection law."
+lastUpdated: "2026-01-10"
 ---
 
-This privacy policy explains how **The Golden Bund** (“We”, “Us”, “Our”) collects, uses, and protects personal data when you visit our website, contact us, or make a reservation.
+This privacy policy explains how **CMM Business** (“We”, “Us”, “Our”) collects, uses, and protects personal data when you visit our website or contact us regarding our consultancy services.
 
 ## Who we are
 
-**Data controller:** The Golden Bund  
-**Address:** 139-151 Marylebone Road, London NW1 5QE  
-**Contact:** info@thegoldenbund.co.uk | 0203 638 0559
+**Data controller:** CMM Business  
+**Address:** 12 John Prince’s Street, London, W1G 0JR  
+**Contact:** Info@cmmbusiness.com | 020 7438 2026
 
 ## What personal data we collect
 
 - Contact information you provide (name, email, phone number, message content).
-- Reservation information (name, contact details, date/time, party size, notes such as dietary requirements).
+- Business-related information you voluntarily provide when enquiring about our consultancy services.
 - Technical and usage data (IP address, browser, device information, pages viewed, approximate location derived from IP address).
 - Cookies and similar technologies.
 
 ## How we use your data
 
-- To respond to enquiries and manage reservations.
-- To operate and secure the website.
-- To analyse traffic and improve performance and content.
+- To respond to enquiries and provide consultancy-related communications.
+- To operate, maintain, and secure the website.
+- To analyse traffic and improve website performance and content.
 - To comply with legal obligations.
 
 ## Legal basis (UK GDPR)
 
-- Performance of a contract.
 - Legitimate interests.
+- Performance of a contract or steps taken prior to entering a contract.
 - Consent (where required for optional cookies/analytics).
 - Legal obligation.
 
@@ -40,18 +40,17 @@ We use cookies and analytics technologies for functionality, security, and under
 
 - **Google Analytics**
 - **Cloudflare**
-- **Google Maps** embeds
 
 You can control cookies through your browser settings.
 
-## Reservations and Dojo
+## Third-party services
 
-Online reservations are handled via **Dojo**. Dojo processes personal data under its own terms and privacy policy. We receive only the information needed to manage your booking.
+Our website may contain links to third-party websites or services. These third parties process personal data under their own privacy policies. We are not responsible for their content or privacy practices.
 
 ## Data retention
 
 - Enquiries: Generally up to 12 months.
-- Reservation records: Generally up to 24 months.
+- Business correspondence: Retained as long as necessary for legitimate business or legal purposes.
 - Technical/security logs: Generally up to 90 days unless needed longer for security/legal reasons.
 
 ## Your rights
@@ -60,7 +59,7 @@ You have rights under UK data protection law, including access, correction, dele
 
 ## Contact
 
-The Golden Bund  
-139-151 Marylebone Road, London NW1 5QE  
- info@thegoldenbund.co.uk
-0203 638 0559
+CMM Business  
+12 John Prince’s Street, London, W1G 0JR  
+Info@cmmbusiness.com  
+020 7438 2026
