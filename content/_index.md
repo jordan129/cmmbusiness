@@ -1,4 +1,4 @@
 ---
 title: "CMM Business | W1G"
-description: "The Golden Bund, a celebrated Shanghai-style restaurant in London, has been delighting customers with authentic Shanghai cuisine for past years."
+description: "CMM Business offers a diverse portfolio of services, to promote the interests of your enterprise and ensure its continued and snowballing success."
 ---
